@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    background-color: yellow;
+    font-size: 18px;
+    padding: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+.deck{
+    display: flex;
+    align-items: baseline;
+}
+.deck h4{
+    margin-left: 10px;
+    color: white;
+}
+h2{
+    color: white;
+}
+main{
+    width: 50vw;
+    height: 70vh;
+    background: url('./table.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#new-deck{
+    width: 100px;
+}
+
+.card{
+    border: 2px solid black;
+    width: 150px;
+    height: 210px;
+    margin: 10px;
+    border-radius: 5px;
+}
+h1{
+   text-align: center;
+   color: white;
+}
+img{
+    width: 150px;
+    height: 210px;
+  margin: 0 auto;
+    
+   
+}
+
+#show-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+.all{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
