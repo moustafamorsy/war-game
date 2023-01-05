@@ -28,6 +28,7 @@ button{
 }
 h2{
     color: white;
+    font-size: 16px;
 }
 main{
     width: 50vw;
@@ -52,6 +53,7 @@ main{
 h1{
    text-align: center;
    color: white;
+
 }
 img{
     width: 100px;
